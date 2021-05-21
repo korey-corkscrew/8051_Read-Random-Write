@@ -176,7 +176,7 @@ HERE0:
 HERE2:
   DJNZ    R4, HERE2             ; CONTINUALLY DECREMENT R4 UNTIL 0
   DJNZ    R3, HERE0             ; DECREMENTS R3 UNTIL 0
-RET
+  RET
 
 
 ;---------------------LCD INITIALIZE PROCEDURE------------------------
